@@ -7,6 +7,7 @@
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
 ### September 5, 2019 (Week 1)
+This project will be a resistor value recognizer to help employees at Humber's Parts Crib as well as new students to quickly identify and organize resistors.
 [Project proposal written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317_Proposal_ResistorValueRecognizer_Kaur-Woo.pdf "Proposal")
 
 ### September 12, 2019 (Week 2)
