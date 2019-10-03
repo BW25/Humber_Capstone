@@ -14,7 +14,7 @@
 ### September 19, 2019 (Week 3)
 Working on colour recognition to read the resistor colour code.
 
-![alt text](https://github.com/BW25/Resistor-value-recognizer/blob/master/images/Colour%20Recognition.PNG "Colour Recognition")
+![Colour Recognition Image](https://github.com/BW25/Resistor-value-recognizer/blob/master/images/Colour%20Recognition.PNG "Colour Recognition")
 
 [Project budget written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317%20Budget%20BWoo%202019.xlsx "Budget")
 
