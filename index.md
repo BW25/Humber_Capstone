@@ -3,7 +3,7 @@
 #### Brendan Woo, Husnal Kaur
 
 
-### Repository
+## Repository
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
 ### September 26, 2019 (Week 4)
@@ -25,3 +25,5 @@ Working on colour recognition to read the resistor colour code.
 This project will be a resistor value recognizer to help employees at Humber's Parts Crib as well as new students to quickly identify and organize resistors. It will include a base station that connects to an Android app.
 
 [Project proposal written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Ceng317_Proposal_ResistorValueRecognizer_Kaur-Woo.pdf "Proposal")
+
+## Repository
