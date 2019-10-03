@@ -16,12 +16,12 @@ Working on colour recognition to read the resistor colour code.
 
 ![Colour Recognition Image](https://github.com/BW25/Resistor-value-recognizer/blob/master/images/Colour%20Recognition.PNG "Colour Recognition")
 
-[Project budget written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317%20Budget%20BWoo%202019.xlsx "Budget")
+[Project budget written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Ceng317%20Budget%20BWoo%202019.xlsx "Budget")
 
 ### September 12, 2019 (Week 2)
-[Project schedule written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317%20Project%20Schedule%20BWoo.png "Schedule")
+[Project schedule written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Ceng317%20Project%20Schedule%20BWoo.png "Schedule")
 
 ### September 5, 2019 (Week 1)
 This project will be a resistor value recognizer to help employees at Humber's Parts Crib as well as new students to quickly identify and organize resistors. It will include a base station that connects to an Android app.
 
-[Project proposal written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317_Proposal_ResistorValueRecognizer_Kaur-Woo.pdf "Proposal")
+[Project proposal written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Ceng317_Proposal_ResistorValueRecognizer_Kaur-Woo.pdf "Proposal")
