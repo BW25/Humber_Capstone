@@ -6,13 +6,10 @@
 ### Repository
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
-### September 5, 2019 (Week 1)
-This project will be a resistor value recognizer to help employees at Humber's Parts Crib as well as new students to quickly identify and organize resistors. It will include a base station that connects to an Android app.
+### September 26, 2019 (Week 4)
+[App layout mockup created](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Software%20(Ceng%20319)/Ceng%20319%20App%20mockup%20BWoo%20HKaur.pdf "App Mockup")
 
-[Project proposal written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317_Proposal_ResistorValueRecognizer_Kaur-Woo.pdf "Proposal")
-
-### September 12, 2019 (Week 2)
-[Project schedule written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317%20Project%20Schedule%20BWoo.png "Schedule")
+[App schedule created](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Software%20(Ceng%20319)/Ceng319%20Project%20Schedule%20Husnal%20Brendan.pdf "App schedule")
 
 ### September 19, 2019 (Week 3)
 Working on colour recognition to read the resistor colour code.
@@ -21,8 +18,10 @@ Working on colour recognition to read the resistor colour code.
 
 [Project budget written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317%20Budget%20BWoo%202019.xlsx "Budget")
 
-### September 26, 2019 (Week 4)
-[App layout mockup created](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Software%20(Ceng%20319)/Ceng%20319%20App%20mockup%20BWoo%20HKaur.pdf "App Mockup")
+### September 12, 2019 (Week 2)
+[Project schedule written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317%20Project%20Schedule%20BWoo.png "Schedule")
 
-[App schedule created](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Software%20(Ceng%20319)/Ceng319%20Project%20Schedule%20Husnal%20Brendan.pdf "App schedule")
+### September 5, 2019 (Week 1)
+This project will be a resistor value recognizer to help employees at Humber's Parts Crib as well as new students to quickly identify and organize resistors. It will include a base station that connects to an Android app.
 
+[Project proposal written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Ceng317_Proposal_ResistorValueRecognizer_Kaur-Woo.pdf "Proposal")
