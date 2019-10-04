@@ -6,6 +6,11 @@
 ## Repository
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
+### October 03, 2019 (Week 5)
+Parts have been ordered, and some have already arrived
+
+![Parts Ordered Image](https://github.com/BW25/Resistor-value-recognizer/blob/master/images/parts_ordered.jpg "Parts Ordered")
+
 ### September 26, 2019 (Week 4)
 [App layout mockup created](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Software%20(Ceng%20319)/Ceng%20319%20App%20mockup%20BWoo%20HKaur.pdf "App Mockup")
 
