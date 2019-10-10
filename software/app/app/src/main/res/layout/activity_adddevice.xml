@@ -8,53 +8,26 @@
     tools:context=".AddDeviceActivity">
 
 
-    <LinearLayout
+    <com.ceng319.rvr_app.CameraSourcePreview
+        android:id="@+id/preview"
         android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.ceng319.rvr_app.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.ceng319.rvr_app.CameraSourcePreview>
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent" >
-
-
-        <ImageView
-            android:id="@+id/scanIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_menu_camera"
-            android:layout_weight="1"
-            android:tint="@color/colorAccent2" >
-        </ImageView>
-
-        <ImageView
-            android:id="@+id/historyIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:tint="@color/colorPrimaryLight"
-
-            app:srcCompat="@android:drawable/ic_menu_recent_history">
-
-        </ImageView>
-
-        <ImageView
-            android:id="@+id/lookupIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:tint="@color/colorPrimaryLight"
-            app:srcCompat="@android:drawable/ic_menu_zoom">
-
-        </ImageView>
-
-        <ImageView
-            android:id="@+id/settingsIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:tint="@color/colorPrimaryLight"
-            app:srcCompat="@android:drawable/ic_menu_preferences">
-
-        </ImageView>
-
-    </LinearLayout>
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

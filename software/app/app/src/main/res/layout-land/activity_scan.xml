@@ -8,18 +8,26 @@
     android:orientation="horizontal">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="Hello World!"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textSize="40sp"
+            android:text="@string/scanTitle"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
 
 
 
@@ -35,7 +43,9 @@
             android:layout_height="wrap_content"
             app:srcCompat="@android:drawable/ic_menu_camera"
             android:layout_weight="1"
-            android:tint="@color/colorPrimaryLight" >
+            android:tint="@color/colorAccentLight"
+            android:scaleX="1.5"
+            android:scaleY="1.5" >
         </ImageView>
 
         <ImageView
@@ -44,7 +54,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tint="@color/colorPrimaryLight"
-
+            android:scaleX="1.5"
+            android:scaleY="1.5"
             app:srcCompat="@android:drawable/ic_menu_recent_history">
 
         </ImageView>
@@ -55,6 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tint="@color/colorPrimaryLight"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
             app:srcCompat="@android:drawable/ic_menu_zoom">
 
         </ImageView>
@@ -65,6 +78,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tint="@color/colorPrimaryLight"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
             app:srcCompat="@android:drawable/ic_menu_preferences">
         </ImageView>
 

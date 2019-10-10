@@ -7,53 +7,30 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="272dp"
-        android:layout_height="189dp"
-        android:layout_marginTop="88dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
+    <!--TODO: Change TextView to the title of this activity-->
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:text="Switch"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="Hello World!"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textSize="40sp"
+            android:text="Title"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.401" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
 
+    <!--This LinearLayout contains the icons for the menu bar-->>
+    <!--TODO: Change the icon of the current activity so its tint is colorAccentLight-->>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,7 +43,9 @@
             android:layout_height="wrap_content"
             app:srcCompat="@android:drawable/ic_menu_camera"
             android:layout_weight="1"
-            android:tint="@color/colorPrimaryLight" >
+            android:tint="@color/colorPrimaryLight"
+            android:scaleX="1.5"
+            android:scaleY="1.5" >
         </ImageView>
 
         <ImageView
@@ -75,7 +54,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tint="@color/colorPrimaryLight"
-
+            android:scaleX="1.5"
+            android:scaleY="1.5"
             app:srcCompat="@android:drawable/ic_menu_recent_history">
 
         </ImageView>
@@ -86,6 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tint="@color/colorPrimaryLight"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
             app:srcCompat="@android:drawable/ic_menu_zoom">
 
         </ImageView>
@@ -96,6 +78,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tint="@color/colorPrimaryLight"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
             app:srcCompat="@android:drawable/ic_menu_preferences">
         </ImageView>
 

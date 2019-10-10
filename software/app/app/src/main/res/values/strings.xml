@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">rvr_app</string>
+    <string name="scanTitle">Scan</string>
+    <string name="historyTitle">History</string>
 </resources>

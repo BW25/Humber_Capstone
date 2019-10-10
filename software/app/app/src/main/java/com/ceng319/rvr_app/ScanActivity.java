@@ -10,7 +10,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ScanActivity extends AppCompatActivity {
-    private ImageView scanIcon;
     private ImageView historyIcon;
     private ImageView lookupIcon;
     private ImageView settingsIcon;
@@ -21,28 +20,13 @@ public class ScanActivity extends AppCompatActivity {
         setTheme(R.style.AppTheme);
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_scan);
+        setupMenuBar();
 
 
-        Button button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Hello, this is my first Android APP", Toast.LENGTH_LONG).show();
-            }
-        });
     }
 
     void setupMenuBar() {
-        scanIcon = findViewById(R.id.scanIcon);
-        scanIcon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), AddDeviceActivity.class);
-                startActivity(intent);
-            }
-        });
-
         historyIcon = findViewById(R.id.historyIcon);
         historyIcon.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,7 +35,7 @@ public class ScanActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        /*
         lookupIcon = findViewById(R.id.lookupIcon);
         lookupIcon.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,6 +52,6 @@ public class ScanActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }

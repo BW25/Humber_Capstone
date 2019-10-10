@@ -54,11 +54,11 @@ public class MainActivity extends AppCompatActivity {
         lookupIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), LookupActivity.class);
+                Intent intent = new Intent(getApplicationContext(), AddDeviceActivity.class);
                 startActivity(intent);
             }
         });
-
+/*
         settingsIcon = findViewById(R.id.settingsIcon);
         settingsIcon.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +66,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }
