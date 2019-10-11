@@ -1,3 +1,0 @@
-include ':app'
-rootProject.name='rvr_app'
-include ':openCVLibrary310'
