@@ -14,7 +14,9 @@ All components needed for the breadboard have also been purchased.
 The project is on track in terms of both the schedule and the budget.
 
 ![Breadboard](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/electronics/TOFsensorDesignWPi_bb.jpg "Breadboard")
+
 ![Schematic](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/electronics/TOFsensorDesignWPi_schem.jpg "Schematic")
+
 ![PCB](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/electronics/TOFsensorDesign_pcb.jpg "PCB")
 
 
