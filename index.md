@@ -6,6 +6,18 @@
 ## Repository
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
+### October 10, 2019 (Week 6)
+The breadboard, schematic, and PCB designs are now complete.
+
+All components needed for the breadboard have also been purchased.
+
+The project is on track in terms of both the schedule and the budget.
+
+![Breadboard](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/electronics/TOFsensorDesignWPi_bb.jpg "Breadboard")
+![Schematic](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/electronics/TOFsensorDesignWPi_schem.jpg "Schematic")
+![PCB](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/electronics/TOFsensorDesign_pcb.jpg "PCB")
+
+
 ### October 03, 2019 (Week 5)
 Parts have been ordered, and some have already arrived
 
@@ -30,5 +42,3 @@ Working on colour recognition to read the resistor colour code.
 This project will be a resistor value recognizer to help employees at Humber's Parts Crib as well as new students to quickly identify and organize resistors. It will include a base station that connects to an Android app.
 
 [Project proposal written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Ceng317_Proposal_ResistorValueRecognizer_Kaur-Woo.pdf "Proposal")
-
-## Repository
