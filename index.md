@@ -9,7 +9,7 @@
 ### October 03, 2019 (Week 5)
 Parts have been ordered, and some have already arrived
 
-![Parts Ordered Image](https://github.com/BW25/Resistor-value-recognizer/blob/master/images/parts_ordered.jpg "Parts Ordered")
+![Parts Ordered Image](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/parts_ordered.jpg "Parts Ordered")
 
 ### September 26, 2019 (Week 4)
 [App layout mockup created](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Software%20(Ceng%20319)/Ceng%20319%20App%20mockup%20BWoo%20HKaur.pdf "App Mockup")
@@ -19,7 +19,7 @@ Parts have been ordered, and some have already arrived
 ### September 19, 2019 (Week 3)
 Working on colour recognition to read the resistor colour code.
 
-![Colour Recognition Image](https://github.com/BW25/Resistor-value-recognizer/blob/master/images/Colour%20Recognition.PNG "Colour Recognition")
+![Colour Recognition Image](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/Colour%20Recognition.PNG "Colour Recognition")
 
 [Project budget written](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Ceng317%20Budget%20BWoo%202019.xlsx "Budget")
 
