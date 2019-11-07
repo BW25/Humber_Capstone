@@ -27,7 +27,7 @@ The breadboard, schematic, and PCB designs are now complete.
 
 All components needed for the breadboard have also been purchased.
 
-The project is on track in terms of both the schedule and the budget.
+The project is on track in terms of both the schedule and the budget, and the proposal is being followed.
 
 ![Breadboard](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/electronics/TOFsensorDesignWPi_bb.jpg "Breadboard")
 
