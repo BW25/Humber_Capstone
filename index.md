@@ -6,6 +6,14 @@
 ## Repository
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
+### November 17, 2019 (Week 9)
+The PCB has been soldered and tested.
+
+The project is on schedule and on budget.
+
+![PCB](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/pcb_soldered.jpg "PCB")
+
+
 ### October 31, 2019 (Week 8)
 The breadboard demo is now complete, and the sensor tested. Happy Halloween!
 
