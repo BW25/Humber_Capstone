@@ -6,7 +6,17 @@
 ## Repository
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
-### November 17, 2019 (Week 9)
+### November 14, 2019 (Week 9)
+The PCB has been tested with the development platform.
+
+With the PCB confirmed to be functional, work is now beginning on the hardware enclosure, as per the project schedule.
+
+The proposal is being adhered to, and the project is on budget.
+
+![PCB tested](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/pcb_tested.jpg "PCB tested")
+
+
+### November 7, 2019 (Week 9)
 The PCB has been soldered and tested.
 
 The project is on schedule and on budget.
