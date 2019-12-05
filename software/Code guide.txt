@@ -1,0 +1,5 @@
+The code used comes from the VL53L0X_rasp_python github page.
+You can find it here, but the package has also been included in this folder as a .zip file for your convenience.
+It comes bundled with the necessary documentation.
+
+https://github.com/johnbryanmoore/VL53L0X_rasp_python
