@@ -6,6 +6,14 @@
 ## Repository
 [https://github.com/BW25/Resistor-value-recognizer](https://github.com/BW25/Resistor-value-recognizer "Repository")
 
+### November 28, 2019 (Week 11)
+
+The presentation has been completed, and the project is proceeding on schedule.
+
+As previously stated, the budget is also on track
+
+[Presentation](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Project%20Presentation.pptx)
+
 ### November 21, 2019 (Week 10)
 The PCB enclosure has been created, and now all hardware and software has been completed.
 
