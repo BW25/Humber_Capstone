@@ -33,6 +33,7 @@ Here is a breakdown of all parts needed:
 These components comme with a Raspberry Pi Kit
 
 | Component      | Number |
+| ----------- | ----------- |
 | Raspberry Pi   | 1        |
 | MicroSD card with Raspian   | 1        |
 | Raspberry Pi power supply   | 1        |
@@ -40,6 +41,8 @@ These components comme with a Raspberry Pi Kit
 
 These components are expected to have no cost, as they are common enough that they are likely already possessed. The electronics are necessary to interface to the Raspberry Pi.
 
+| Component      | Number |
+| ----------- | ----------- |
 | Glue   | 1        |
 | Monitor with HDMI port   | 1        |
 | USB mouse   | 1        |
