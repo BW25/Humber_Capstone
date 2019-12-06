@@ -103,7 +103,7 @@ Test it by moving your hand above the sensor while the code is running.
 ## PCB / Soldering
 
 Once your PCB has arrived, it must be soldered. 
-If you are unfamiliar with soldering, you can find a beginning tutorial [here](https://www.youtube.com/watch?v=vIT4ra6Mo0s).
+If you are unfamiliar with soldering, you can find a beginning tutorial here. [Soldering tutorials](https://www.youtube.com/watch?v=vIT4ra6Mo0s).
 
 If you did not get a board with plated through holes, you will need to solder the center holes to ensure a connection between both sides of the boards. These holes are marked on the image below with black centers. Simply insert a short length of wire into the hole and solder on both ends.
 
@@ -121,12 +121,13 @@ If it does not work, then recheck you interface board with a multimeter as above
 ## Mechanical assembly
 
 If you are unfamiliar with laser cutting, you can find a guide here. [Introduction to laser cutting](https://makerdesignlab.com/tutorials-tips/laser-cutting-beginners-guide/)
+
 Laser cutting can be done in your local makerspace. A quick Internet search should let you find the one closest to you.
 
 This project is designed for 3mm cast acrylic; colour is irrelevant, although I used transparent acrylic. You can cut other materials, but keep in mind the slots on the design are designed for a 3mm thick material. You may need to alter the design if you want to use something else. 
 The AutoCAD files can be found at this link. I recommend altering it to change the text at minimum; you want it to say your name, not mine! [Hardware enclosure](https://github.com/BW25/Resistor-value-recognizer/blob/master/mechanical/hardwareEnclosure.dwg)
 
-If you are unfamiliar with AutoCAD, you can find tutorials [here](qhttps://thesourcecad.com/autocad-tutorials/).
+If you are unfamiliar with AutoCAD, you can find tutorials here. [AutoCAD tutorials](https://thesourcecad.com/autocad-tutorials/).
 
 After editing the AutoCAD files, go to the "Output" tab and select "Plot". Change the plot scale to 1:1 in mm. Use the Preview button and the Plot offset to ensure your design is centered on the paper. Then select "Ok" to output your design to a PDF. 
 
