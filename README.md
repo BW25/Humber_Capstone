@@ -30,7 +30,7 @@ Here is a breakdown of all parts needed:
 | VL53L0X sensor   | 1        |
 | 4 F-F wire connectors| 1        |
 
-These components comme with a Raspberry Pi Kit
+These components comme with a Raspberry Pi Kit:
 
 | Component      | Number |
 | ----------- | ----------- |
@@ -125,6 +125,8 @@ Laser cutting can be done in your local makerspace. A quick Internet search shou
 
 This project is designed for 3mm cast acrylic; colour is irrelevant, although I used transparent acrylic. You can cut other materials, but keep in mind the slots on the design are designed for a 3mm thick material. You may need to alter the design if you want to use something else. 
 The AutoCAD files can be found at this link. I recommend altering it to change the text at minimum; you want it to say your name, not mine! [Hardware enclosure](https://github.com/BW25/Resistor-value-recognizer/blob/master/mechanical/hardwareEnclosure.dwg)
+
+If you are unfamiliar with AutoCAD, you can find tutorials [here](qhttps://thesourcecad.com/autocad-tutorials/).
 
 After editing the AutoCAD files, go to the "Output" tab and select "Plot". Change the plot scale to 1:1 in mm. Use the Preview button and the Plot offset to ensure your design is centered on the paper. Then select "Ok" to output your design to a PDF. 
 
