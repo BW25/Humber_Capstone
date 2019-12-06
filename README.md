@@ -17,6 +17,7 @@ The Raspberry Pi development platform connects to the V53L0X through an I2C bus.
 The expected budget for the project is $118.69. However, the primary cost is a Raspberry Pi kit. If you already have one, then the cost will be $33.32. 
 
 Here is a breakdown of all parts needed:
+
 | Component      | Number |
 | ----------- | ----------- |
 | 23x11 sheet of 3mm cast acrylic      | 1       |
@@ -30,6 +31,7 @@ Here is a breakdown of all parts needed:
 | 4 F-F wire connectors| 1        |
 
 These components comme with a Raspberry Pi Kit
+
 | Component      | Number |
 | Raspberry Pi   | 1        |
 | MicroSD card with Raspian   | 1        |
@@ -37,6 +39,7 @@ These components comme with a Raspberry Pi Kit
 | HDMI cable   | 1        |
 
 These components are expected to have no cost, as they are common enough that they are likely already possessed. The electronics are necessary to interface to the Raspberry Pi.
+
 | Glue   | 1        |
 | Monitor with HDMI port   | 1        |
 | USB mouse   | 1        |
