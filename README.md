@@ -55,7 +55,7 @@ I have included resources to places where some of the resources can be purchased
 I created my PCB in the Humber Prototype Lab, but you can order one from any PCB manufacturer, such as [Express PCB](https://www.expresspcb.com/how-to-order-pcbs/).
 The PCB design can be edited in Fritzing, and can be found [here](https://github.com/BW25/Resistor-value-recognizer/blob/master/electronics/TOFsensorDesign.fzz).
 
-
+Here is my budget; Your costs may vary slightly depending on local availability and costs.
 ![Budget](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/budget.PNG "Budget")
 
 
