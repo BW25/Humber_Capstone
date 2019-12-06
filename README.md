@@ -140,7 +140,7 @@ The design is assembled shown in the image. Be sure that the side pieces with th
 
 ## Power up: and Unit testing 3: Final testing (Production testing)
 
-The final test is to interface our sensor to the Raspberry Pi in the case. Once the case is assembled, you will notice a small hole in the lid of the case. You can run the wires through here to connect the sensor and Raspberry Pi. Then run the code as explained in Unit testing 1.
+The final test is to interface our sensor to the Raspberry Pi in the case. Once the case is assembled, you will notice a small hole in the lid of the case. You can run the wires through here to connect the sensor and Raspberry Pi. Then connect the wiring and run the code as explained in Unit testing 1 and 2.
 
 If you are assembling this project in larger numbers or are pressed for time, the multiple stages of unit testing may be undesirable or redundant. Therefore, this final check can be used for production testing.
 
