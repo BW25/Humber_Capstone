@@ -4,9 +4,9 @@
 
 ## Introduction
 
-This guide will help you build a time-of-flight sensor, interface board, and laser-cut case for a Raspberry Pi development platform. The TOF sensor used is the V53L0X sensor. This project was designed to serve as a piece of the hardware for a Resistor Value Recognizer device, but it can be used for other projects as well.
+This guide will help you build a time-of-flight sensor, interface board, and laser-cut case for a Raspberry Pi development platform. The TOF sensor used is the VL53L0X sensor. This project was designed to serve as a piece of the hardware for a Resistor Value Recognizer device, but it can be used for other projects as well.
 
-The Raspberry Pi development platform connects to the V53L0X through an I2C bus. To make the connecttion and mounting of the sensor easier and more streamlined, an interface PCB was designed in Fritzing. The Raspberry Pi, sensor, and PCB are then enclosed in a laser-cut case for protection.
+The Raspberry Pi development platform connects to the VL53L0X through an I2C bus. To make the connecttion and mounting of the sensor easier and more streamlined, an interface PCB was designed in Fritzing. The Raspberry Pi, sensor, and PCB are then enclosed in a laser-cut case for protection.
 
 ![System Diagram 2](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/system%20diagram%202.PNG "System Diagram 2")
 ![System Diagram 1](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/system%20diagram%201.PNG "System Diagram 1")
