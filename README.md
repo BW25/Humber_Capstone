@@ -1,10 +1,31 @@
 # Humber_Capstone
 2019-2020 Computer Engineering Capstone Project at Humber College
 
-
-## Introduction
+![The final product](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/pcb_enclosure.jpg "The final product")
 
 This guide will help you build a time-of-flight sensor, interface board, and laser-cut case for a Raspberry Pi development platform. The TOF sensor used is the VL53L0X sensor. This project was designed to serve as a piece of the hardware for a Resistor Value Recognizer device, but it can be used for other projects as well.
+
+
+## Table of Contents
+[Introduction](https://github.com/BW25/Resistor-value-recognizer#Introduction)
+
+[Budget](https://github.com/BW25/Resistor-value-recognizer#Budget)
+
+[Time committment](https://github.com/BW25/Resistor-value-recognizer#Time-committment)
+
+[Software setup and Unit testing 1: Breadboard](https://github.com/BW25/Resistor-value-recognizer#Software-setup-and-Unit-testing-1-Breadboard)
+
+[PCB / Soldering: Breadboard](https://github.com/BW25/Resistor-value-recognizer#PCB-/-Soldering)
+
+[Unit testing 2: PCB](https://github.com/BW25/Resistor-value-recognizer#Unit-testing-2-PCB)
+
+[Mechanical assembly](https://github.com/BW25/Resistor-value-recognizer#Mechanical-assembly)
+
+[Power up and Unit testing 3: Production testing](https://github.com/BW25/Resistor-value-recognizer#Power-up-and-Unit-testing-3-Production-testing)
+
+
+
+## Introduction
 
 The Raspberry Pi development platform connects to the VL53L0X through an I2C bus. To make the connecttion and mounting of the sensor easier and more streamlined, an interface PCB was designed in Fritzing. The Raspberry Pi, sensor, and PCB are then enclosed in a laser-cut case for protection.
 
@@ -14,23 +35,25 @@ The Raspberry Pi development platform connects to the VL53L0X through an I2C bus
 ## Budget
 [Full budget file](https://github.com/BW25/Resistor-value-recognizer/blob/master/documentation/Hardware%20(Ceng%20317)/Ceng317%20Budget%20BWoo%202019.xlsx)
 
-The expected budget for the project is $118.69. However, the primary cost is a Raspberry Pi kit. If you already have one, then the cost will be $33.32. 
+The expected budget for the project is $144.52. However, the primary cost is a Raspberry Pi kit. If you already have one, then the cost will be $59.15. 
 
 Here is a breakdown of all parts needed:
 
-| Component      | Number |
-| ----------- | ----------- |
-| 23x11 sheet of 3mm cast acrylic      | 1       |
-| m2.5 screws   | 4        |
-| m2.5 nuts   | 4        |
-| m2 screws   | 2        |
-| m2 nuts   | 2        |
-| 6 pin header   | 1        |
-| 4 pin header   | 1        |
-| VL53L0X sensor   | 1        |
-| 4 F-F wire connectors| 1        |
+|           Component           | Number |   Cost  |  Source  |                  Link                 |
+|:-----------------------------:|:------:|:-------:|:--------:|:-------------------------------------:|
+|     3mm cast acrylic sheet    |    1   |  $14.95 |  Amazon  |        https://amzn.to/2Ry0JLj        |
+|          m2.5 screws          |    4   |  $0.60  |  Digikey |         https://bit.ly/2t4eDuB        |
+|           m2.5 nuts           |    4   |  $0.92  |  Digikey |         http://bit.ly/35lUwpC         |
+|           m2 screws           |    2   |  $0.42  |  Digikey |         http://bit.ly/2PvBeYw         |
+|            m2 nuts            |    2   |  $0.34  |  Digikey |         http://bit.ly/355GWqq         |
+| 4 pin header and 6 pin header |    1   |  $19.98 |  Amazon  |        https://amzn.to/2PyRhVc        |
+|         VL53L0X sensor        |    1   |  $14.95 | Adafruit | https://www.adafruit.com/product/3317 |
+|     4 F-F wire connectors     |    1   |  $6.99  |  Amazon  |        https://amzn.to/2RHou3L        |
+|        Raspberry Pi kit       |    1   |  $85.37 |  Canakit |        https://amzn.to/2RHTccP        |
+| Total:                        |        | $144.52 |          |                                       |
 
-These components comme with a Raspberry Pi Kit:
+
+These components come with a Raspberry Pi Kit:
 
 | Component      | Number |
 | ----------- | ----------- |
@@ -48,15 +71,14 @@ These components are expected to have no cost, as they are common enough that th
 | USB mouse   | 1        |
 | USB keyboard   | 1        |
 
-As shown below, the other main costs are the V53L0X sensor and a sheet of 3mm cast acrylic for the enclosure. 
+As shown below, the other main costs are the VL53L0X sensor and a sheet of 3mm cast acrylic for the enclosure. 
 
 I have included resources to places where some of the resources can be purchased in the budget. Some components, such as the cast acrylic may have different availabilities depending on your location. Other components such as screws can be purchased at a local hardware store. 
 
 I created my PCB in the Humber Prototype Lab, but you can order one from any PCB manufacturer, such as [Express PCB](https://www.expresspcb.com/how-to-order-pcbs/).
-The PCB design can be edited in Fritzing, and can be found [here](https://github.com/BW25/Resistor-value-recognizer/blob/master/electronics/TOFsensorDesign.fzz).
+The PCB design can be edited in Fritzing, and can be found here: [PCB file](https://github.com/BW25/Resistor-value-recognizer/blob/master/electronics/TOFsensorDesign.fzz).
 
-Here is my budget; Your costs may vary slightly depending on local availability and costs.
-![Budget](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/budget.PNG "Budget")
+The AutoCAD files for the enclosure can be found here: [Hardware enclosure file](https://github.com/BW25/Resistor-value-recognizer/blob/master/mechanical/hardwareEnclosure.dwg)
 
 
 ## Time committment
@@ -141,7 +163,7 @@ The design is assembled shown in the image. Be sure that the side pieces with th
 
 ![The final product](https://raw.githubusercontent.com/BW25/Resistor-value-recognizer/master/images/pcb_enclosure.jpg "The final product")
 
-## Power up: and Unit testing 3: Final testing (Production testing)
+## Power up and Unit testing 3: Production testing
 
 The final test is to interface our sensor to the Raspberry Pi in the case. Once the case is assembled, you will notice a small hole in the lid of the case. You can run the wires through here to connect the sensor and Raspberry Pi. Then connect the wiring and run the code as explained in Unit testing 1 and 2.
 
